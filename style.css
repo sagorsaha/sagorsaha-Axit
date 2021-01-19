@@ -1,0 +1,367 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif*/
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	background: black;
+	padding: 10px 0px;
+}
+.nav-link{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600px;
+	font-size: 14px;
+	color: #b0b0b0 !important;
+}
+.nav-link:hover{
+	color: white !important;
+}
+.banner{
+	width: 100%;
+	background:tomato;
+	height: 100vh;
+	background-image: url(img1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner-text{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-text h1{
+	color:#d5d5d5; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 40px 0px;
+
+}
+.banner-text p{
+color: #929294;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 16px;
+margin: 30px 0px;
+}
+.banner-text .line{
+	height: 2px;
+	width: 20%;
+	background: white;
+}
+.banner-text button{
+padding: 12px 25px;
+background-color:transparent;
+color: white;
+border: 1px solid white;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 15px;
+
+}
+.banner-text button:hover{
+	background-color: white;
+	color: black;
+}
+.banner-form{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.card{
+	background: #ffffff;
+}
+.card-header{
+	font-weight: 400;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	text-align: center;
+
+}
+.card-header span{
+	color: #ff8b38;
+}
+.card-body input{
+	width: 100%;
+	margin: 15px 0px;
+	border: none;
+	border-bottom: 1px solid black;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	background-color: #f5f5f5;
+}
+.card-body{
+	padding: 1rem 2rem !important;
+}
+.card-body input:focus{
+	outline: none;
+}
+.card-footer {
+	width: 100%;
+	height: 42px;
+	background: transparent;
+	border: none;
+	padding: 0px;
+	border-radius:
+
+}
+.banner-form .card{
+	border: 0px !important;
+}
+.card-footer button{
+	width:100%;
+	padding: 10px 0px;
+	border: none;
+	background: #ff9b51;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.iocn{
+	width: 100%;
+	padding: 60px 0px;
+	
+}
+ .icon .col-md-4 h5{
+color: #333333;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+font-style: 20px;
+}
+.icon .col-md-4 p{
+ color: #b1b2b4;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 400;
+ font-size: 14px;
+
+}
+.col-md-8 ul li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 30px;
+	padding: 0px 30px;
+
+	
+}
+.col-md-8 ul li a{
+	color: #cccccc;
+	font-size: 30px;
+}
+.line{
+	width: 100%;
+	border: 1px solid #d6d6d6;
+}
+.tab{
+	width: 100%;
+	padding: 60px 0px;
+	background: #f5f5f5;
+}
+.tab .col-md-2 ul li{
+list-style: none;
+height: 80px;
+line-height: 80px;
+background: #333333;
+margin-bottom: 2px;
+width: 88%;
+text-align:center;
+
+}
+.tab .col-md-2 ul li a{
+color: white;
+}
+.item-1{
+border-top-right-radius:4px;
+border-top-left-radius:4px; 
+
+}
+.active-color{
+background-color: #ff8b38 !important;
+	
+}
+.item-3{
+	border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px; 
+}
+.tab.col-md-6 h5{
+color: #000000;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+font-size: 20px;
+
+}
+.tab .col-md-6 p{
+color: #86878b;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 14px;
+}
+.tab .col-md-6 button{
+background-color: #ff8b38 ;
+border:none;
+width:100px;
+height: 40px;
+border-radius: 2px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 15px;
+color:white;
+}
+.list{
+	width: 100%;
+	padding: 60px 0px;
+}
+.list h5{
+	color: #212121;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.list h6{
+	color: #212121;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+.list p{
+	color: #a4a5a8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.list li{
+	list-style: none;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 60px;
+    border: 2px solid #ff9244;
+    transition: 0.5s ease-in-out;
+    color:#ff9244;
+}
+.list li:hover{
+    border: 1px solid red;
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    background: #ff8b38;
+}
+.list .col-md-2 li a{
+	color:  #ff8b38;
+}
+.line2{
+	width: 20%;
+	height: 2px;
+	background: #ff9244;
+	margin: 20px 0px;
+}
+.standered{
+	width: 100%;
+	padding:60px 0px;
+}
+.standered h3{
+	color: #212121;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.standered p{
+    color: #a4a5a8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.line3{
+	width: 20%;
+	height: 2px;
+	background: #ff9244;
+	margin: 20px 0px;
+}
+.extra{
+	color: #a4a5a8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.awesome{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+
+}
+.awesome h2{
+	color: #212121;
+	font-weight: 400;
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+
+}
+.awesome p{
+	color: #8e8f92;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.line5{
+	width: 10%;
+	height: 2px;
+	background: #ff9244;
+	margin: 20px 0px;
+	margin-left: 510px;
+}
+.awesome{
+	width: 100%;
+	padding: 60px 0px;
+
+}
+.awesome h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #333333;
+	margin-top: 20px;
+}
+.awesome p{
+	color: #a4a5a8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+.awesome li{
+	list-style: none;
+    height: 40px;
+    width: 40px;
+    margin-left: 155px;
+    line-height: 40px;
+    border-radius: 60px;
+    border: 2px solid #ff9244;
+    transition: 0.5s ease-in-out;
+    color:#ff9244;
+    margin-top: 50px;
+
+
+}
+.awesome li:hover{
+	border: 1px solid red;
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    background: #ff8b38;
+}
+.awesome li a{
+	color: #ff9244;
+}
